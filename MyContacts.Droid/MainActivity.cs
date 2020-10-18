@@ -14,7 +14,9 @@ namespace MyContacts.Droid
     {
         protected override void OnCreate(Bundle bundle)
         {
-			base.OnCreate(bundle);
+            //  Properties > Android Options > Advanced: x84 & x86_64
+
+            base.OnCreate(bundle);
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
 
